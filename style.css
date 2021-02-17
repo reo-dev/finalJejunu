@@ -4,6 +4,15 @@ html, body {
   font-size: 10px;
 }
 
+@font-face {
+  font-family:'Dotum';
+  src: url('img/KoPubWorld\ Dotum_Pro\ Bold.otf');
+}
+
+html{
+  font-family: 'Dotum'; 
+}
+
 ul, li { list-style: none; }
 a { outline: none; text-decoration: none; }
 
