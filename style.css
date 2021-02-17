@@ -1,0 +1,164 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  font-size: 10px;
+}
+
+@font-face {
+  font-family:'Dotum';
+  src: url('img/KoPubWorld\ Dotum_Pro\ Bold.otf');
+}
+
+html{
+  font-family: 'Dotum'; 
+}
+
+ul, li { list-style: none; }
+a { outline: none; text-decoration: none; }
+
+#sec1 {
+  background-image: url(img/testBG.jpg);
+  background-size: cover;
+  max-height: 1700px;
+  padding: 56px 0 80px 0;
+  text-align: center;
+}
+#sec2 {
+  background-image: url(img/testBG.jpg);
+  background-size: cover;
+  max-height: 1700px;
+  padding: 56px 0 80px 0;
+  text-align: center;
+}
+#sec3 {
+  background-image: url(img/testBG.jpg);
+  background-size: cover;
+  max-height: 1700px;
+  padding: 56px 0 80px 0;
+  text-align: center;
+}
+#sec4 {
+  background-image: url(img/testBG.jpg);
+  background-size: cover;
+  max-height: 1700px;
+  padding: 56px 0 80px 0;
+  text-align: center;
+}
+
+.menubar { 
+  margin: 700px auto 0; 
+  width:1200px; 
+  position:relative; 
+  z-index:10; 
+}
+
+.menubar:after { 
+  content:"";
+  display:block;
+  clear:both;
+  *zoom:1; 
+}
+.menubar li { 
+  float:left; 
+  width:20%; 
+}
+.menubar li a { 
+	background:#2d2d2d; 
+  height:auto; 
+  display:block; 
+  text-align:center; 
+  font-size:24px; 
+  font-weight:bold;
+  letter-spacing:-0.05em; 
+	padding:18px 0; 
+  line-height:24px; 
+  color:#fff; 
+  border-left:1px solid #54595c;
+}
+.menubar li:first-child a { border-left:0; }
+.menubar li a:hover { background:#002777; }
+.menubar li a i { font-style:normal }
+
+.comment {
+  padding:135px 0 38px; 
+  font-size:70px; 
+  font-weight:900;
+  line-height:70px; 
+  letter-spacing:-0.05em; 
+  text-align:center; 
+  color:#fff;
+}
+
+.sec1-video { 
+  width:962px; 
+  height:541px; 
+  margin:0 auto; 
+  position:relative; 
+}
+
+.video-content {
+  position:relative;
+  padding-bottom:0%;
+  padding-top:0;
+  height:100%;
+  overflow:hidden;
+}
+
+.video-content > iframe {
+  position:absolute;
+  top:0;
+  left:0;
+  width:100%;
+  height:100%;
+}
+
+#sec5 {
+  position: relative;
+  padding: 80px 0px 0px;
+  background-color: gray;
+  list-style: none;
+  width: 100%;
+}
+
+.links {
+  padding: 20px 0 50px;
+  padding-right: 15px;
+}
+
+.links:after {
+  content: "";
+  display: block;
+  clear: both;
+  *zoom: 1;
+}
+
+.links li {
+  float: left;
+  width: 19%;
+  font-size: 2em;
+  text-align: center;
+  padding: 0.3rem;
+  height: 40px;
+  margin-left: 1%;
+  margin-bottom: 10px;
+  background-color: #FCF6F5;
+}
+
+.links li a {
+  display: block;
+}
+
+.links li a img {
+  width: 100%;
+}
+
+
+.sec2Btn {
+    width: 5rem;
+    height: 5rem;
+}
+
+.library {
+    width: auto;
+    height: auto;
+}
