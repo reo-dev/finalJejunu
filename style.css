@@ -26,7 +26,7 @@ a { outline: none; text-decoration: none; }
 #sec2 {
   background-image: url(img/testBG.jpg);
   background-size: cover;
-  max-height: 1700px;
+  max-height: 1100px;
   padding: 56px 0 80px 0;
   text-align: center;
 }
@@ -40,7 +40,7 @@ a { outline: none; text-decoration: none; }
 #sec4 {
   background-image: url(img/testBG.jpg);
   background-size: cover;
-  max-height: 1700px;
+  max-height: 1100px;
   padding: 56px 0 80px 0;
   text-align: center;
 }
@@ -81,7 +81,7 @@ a { outline: none; text-decoration: none; }
 
 .comment {
   padding:135px 0 38px; 
-  font-size:70px; 
+  font-size:7rem; 
   font-weight:900;
   line-height:70px; 
   letter-spacing:-0.05em; 
@@ -154,11 +154,28 @@ a { outline: none; text-decoration: none; }
 
 
 .sec2Btn {
-    width: 5rem;
-    height: 5rem;
+    width: 20rem;
+    height: 20rem;
 }
 
 .library {
     width: auto;
     height: auto;
+}
+
+
+@media screen and (max-width: 1100px) {
+    html{
+        font-size: 8px;
+    }
+}
+@media screen and (max-width: 800px) {
+    html{
+        font-size: 4px;
+    }
+}
+@media screen and (max-width: 300px) {
+    html{
+        font-size: 4px;
+    }
 }
