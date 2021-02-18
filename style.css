@@ -173,18 +173,18 @@ a:visited {
 
 @media screen and (max-width: 825px) {
     html{
-        font-size: 4px;
+        font-size: 5px;
     }
 }
 
 @media screen and (max-width: 611px) {
   html{
-      font-size: 2px;
+      font-size: 4px;
   }
 }
 
-@media screen and (max-width: 452px) {
+/* @media screen and (max-width: 452px) {
   html{
       font-size: 1px;
   }
-}
+} */
