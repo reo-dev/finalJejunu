@@ -168,7 +168,7 @@ a:visited {
     }
 }
 
-@media screen and (max-width: 825px) {
+/* @media screen and (max-width: 825px) {
     html{
         font-size: 4px;
     }
@@ -184,4 +184,4 @@ a:visited {
   html{
       font-size: 1px;
   }
-}
+} */
