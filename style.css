@@ -10,26 +10,29 @@ body {
   src: url('img/KoPubWorld\ Dotum_Pro\ Bold.otf');
 }
 
-html {
+html, body {
+  margin: 0;
+  padding: 0;
+  font-size: 10px;
   font-family: 'Dotum';
 }
 
-ul,
-li {
-  list-style: none;
-}
+ul, li { list-style: none; }
 
-a {
-  outline: none;
-  text-decoration: none;
+a,
+a:hover,
+a:link,
+a:visited {
+    text-decoration: none;
+    color: #7b9acc
 }
 
 #sec1 {
+  display: flex;
+  flex-direction: column;
   background-image: url(img/testBG.jpg);
   background-size: cover;
-  max-height: 1700px;
-  padding: 56px 0 80px 0;
-  text-align: center;
+  height: 140rem;
 }
 
 #sec2 {
@@ -56,66 +59,39 @@ a {
   text-align: center;
 }
 
-.menubar {
-  margin: 700px auto 0;
-  width: 1200px;
-  position: relative;
-  z-index: 10;
+.menubar { 
+  display: flex;
+  list-style: none;
+  margin-top: 50rem;
+  padding: 0 0;
+  justify-content: center;
 }
 
-.menubar:after {
-  content: "";
-  display: block;
-  clear: both;
-  *zoom: 1;
-}
-
-.menubar li {
-  float: left;
-  width: 20%;
-}
-
-.menubar li a {
-  background: #2d2d2d;
-  height: auto;
-  display: block;
+.menubar li a { 
+  padding: 1.5rem 8rem;
+  background-color: #FCF6F5;
+  font-size: 2rem;
+  border-radius: 0.4rem;
+  margin: 0 1px;
   text-align: center;
-  font-size: 24px;
-  font-weight: bold;
-  letter-spacing: -0.05em;
-  padding: 18px 0;
-  line-height: 24px;
-  color: #fff;
-  border-left: 1px solid #54595c;
-}
-
-.menubar li:first-child a {
-  border-left: 0;
-}
-
-.menubar li a:hover {
-  background: #002777;
-}
-
-.menubar li a i {
-  font-style: normal
+  background-color: #2d2d2d;
+  color: white;
 }
 
 .comment {
-  padding: 135px 0 38px;
-  font-size: 7rem;
-  font-weight: 900;
-  line-height: 70px;
-  letter-spacing: -0.05em;
-  text-align: center;
-  color: #fff;
+  font-size:7rem; 
+  font-weight:900;
+  letter-spacing:-0.05em; 
+  text-align:center;
+  color:#fff;
+  margin: 10rem 0 0;
 }
 
-.sec1-video {
-  width: 962px;
-  height: 541px;
-  margin: 0 auto;
-  position: relative;
+.sec1-video { 
+  width:96.2rem; 
+  height:54.1rem; 
+  margin:0 auto; 
+  position:relative; 
 }
 
 .video-content {
@@ -159,7 +135,7 @@ a {
   width: 19%;
   font-size: 2em;
   text-align: center;
-  padding: 0.3rem;
+  padding: 0.3rem 0;
   height: 40px;
   margin-left: 1%;
   margin-bottom: 10px;
@@ -183,26 +159,32 @@ a {
 
 
 
-@media screen and (max-width: 19200px) {
-  html {
-    font-size: 10px;
+@media screen and (max-width: 1401px) {
+    html{
+        font-size: 8px;
+    }
+}
+
+@media screen and (max-width: 1093px) {
+    html{
+        font-size: 6px;
+    }
+}
+
+@media screen and (max-width: 825px) {
+    html{
+        font-size: 4px;
+    }
+}
+
+@media screen and (max-width: 611px) {
+  html{
+      font-size: 2px;
   }
 }
 
-@media screen and (max-width: 1420px) {
-  html {
-    font-size: 8px;
-  }
-}
-
-@media screen and (max-width: 920px) {
-  html {
-    font-size: 6px;
-  }
-}
-
-@media screen and (max-width: 520px) {
-  html {
-    font-size: 4px;
+@media screen and (max-width: 452px) {
+  html{
+      font-size: 1px;
   }
 }
