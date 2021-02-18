@@ -185,9 +185,3 @@ a:visited {
       font-size: 1px;
   }
 }
-
-@media screen and (max-width: 371px) {
-  html{
-      font-size: 0.5px;
-  }
-}
